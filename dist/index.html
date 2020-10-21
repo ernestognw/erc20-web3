@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  
+  <button id="connect">
+    Conectar
+  </button>
+
+  <div style="display: none" id="content">
+    <h1>
+      Tu cuenta:
+    </h1>
+    <span id="account"></span>
+    <form id="send">
+      <label>Address</label>
+      <input id="recipient" type="text" placeholder="Destino">
+
+      <label>Cantidad</label>
+      <input id="amount" type="text" placeholder="Cantidad">
+      <button>Enviar</button>
+    </form>
+  </div>
+
   <script src="./main.js"></script>
 </body>
+
 </html>
