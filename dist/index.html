@@ -17,12 +17,25 @@
       Tu cuenta:
     </h1>
     <span id="account"></span>
+    <h2>Send Ether</h2>
     <form id="send">
+      <p>Balance ETH: <span id="balance"></span></p>
       <label>Address</label>
       <input id="recipient" type="text" placeholder="Destino">
-
+      
       <label>Cantidad</label>
       <input id="amount" type="text" placeholder="Cantidad">
+      <button>Enviar</button>
+    </form>
+    <h2>Send Blockdemy Coin</h2>
+    <form id="sendERC20">
+      <p>Balance BDM: <span id="balanceERC20"></span></p>
+      <label>Address</label>
+      <span></span>
+      <input id="recipientERC20" type="text" placeholder="Destino">
+
+      <label>Cantidad</label>
+      <input id="amountERC20" type="text" placeholder="Cantidad">
       <button>Enviar</button>
     </form>
   </div>
